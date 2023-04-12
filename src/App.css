@@ -1,0 +1,32 @@
+body {
+  background-color: #282c34;
+  color: white;
+}
+.content {
+  margin-top: 3rem;
+}
+input,
+select,
+textarea {
+  padding-left: 0.3rem;
+  border-radius: 5px;
+  background-color: #212529;
+  color: white;
+  border-color: black;
+}
+input[type="number"],
+input[type="text"],
+input[type="date"],
+select {
+  height: 1.8rem;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 3px;
+}
+button {
+  color: white;
+  border-color: black;
+  background-color: #212529;
+  border-radius: 5px;
+}

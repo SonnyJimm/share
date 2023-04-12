@@ -1,0 +1,26 @@
+.main-page-form {
+  display: flex;
+  flex-direction: column;
+}
+.main-page-form-name {
+  display: flex;
+  flex-direction: row;
+}
+.main-page-form-item {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.error {
+  box-shadow: 0 0 2px 1px red;
+  border-color: red;
+  color: red;
+}
+.error-message {
+  color: red;
+  font-size: 1rem;
+  padding-bottom: 0rem;
+}
